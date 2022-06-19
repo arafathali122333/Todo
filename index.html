@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Todo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Todo📝</div>
+        <input id="inputTag" type="text" placeholder="Add New Todo" onkeydown="onAddTodo(event);"> <span class="btn" onclick="onAddTodo(event)">➕</span>
+        <div id="todos">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
